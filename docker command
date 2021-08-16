@@ -1,0 +1,4 @@
+first installation of docker
+11  docker container run --publish 80:80 --detach httpd
+   12  docker container ls
+   13  docker ps
