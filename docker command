@@ -2,3 +2,9 @@ first installation of docker
 11  docker container run --publish 80:80 --detach httpd
    12  docker container ls
    13  docker ps
+   docker deploy second
+   15  docker ps
+   16  docker run -p 81:80 -d httpd
+   17  docker ps
+   18  docker images
+
